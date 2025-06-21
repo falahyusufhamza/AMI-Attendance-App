@@ -23,7 +23,7 @@ export const CustomLayout = ({
       if (response?.data?.success === true) {
       localStorage.removeItem('name');
       localStorage.removeItem('id');
-      document.cookie= '';
+      localStorage.removeItem('authToken');
       navigate('/login');
       message.success('Logged out successfully!');
       } else {

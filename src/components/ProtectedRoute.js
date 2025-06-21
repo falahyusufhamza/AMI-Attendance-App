@@ -2,7 +2,8 @@ import React from 'react'
 import { Navigate } from 'react-router';
 
 export const ProtectedRoute = ({isLoginPage = false, children}) => {
-  const token = document.cookie.split('; ').find(row => row.startsWith('authToken='));
+  // const token = document.cookie.split('; ').find(row => row.startsWith('authToken='));
+  const token = localStorage.getItem('authToken');
   const isAuthenticated = !!token;
   
   switch (isLoginPage) {
