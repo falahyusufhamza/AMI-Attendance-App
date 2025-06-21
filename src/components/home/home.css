@@ -1,0 +1,53 @@
+.home-header-container {
+    background-color: #f5f5f5;
+    text-align: center;
+}
+.home-container {
+    padding: 20px;
+    background-color: white;
+    height: 100%;
+}
+
+.logout-icon {
+    position: absolute;
+    top: 25px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.welcome-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-radius: 20px;
+    background-color: var(--primary-color);
+    padding: 8px;
+}
+
+.welcome-container .profile-icon svg {
+    fill: white;
+    padding: 8px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.greeting .date {
+    color: wheat;
+    font-weight: bold;
+}
+
+.greeting h1 {
+    margin-top: 0px;
+    color: white;
+}
+
+.loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.classlist-container {
+    margin-top: 8px;
+}

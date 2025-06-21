@@ -1,0 +1,28 @@
+.ant-layout.layout-container {
+    height: 100%;
+}
+
+.footer-footy {
+    padding: 0px;
+}
+
+.footer-footy .footer-col a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    padding: 16px;
+
+}
+
+.footer-footy .anticon-home,
+.footer-footy .anticon-user {
+    color: var(--primary-color);
+}
+
+.footer-footy .footer-col:has(a.active) {
+    background-color: var(--primary-color);
+}
+.footer-footy .footer-col:has(a.active) .anticon-home,
+.footer-footy .footer-col:has(a.active) .anticon-user {
+    color: white;
+}

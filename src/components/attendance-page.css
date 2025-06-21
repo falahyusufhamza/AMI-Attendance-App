@@ -1,0 +1,33 @@
+.status-helpers {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding-inline: 12px;
+    padding-block: 16px;
+    width: 100%;
+}
+
+.attendance-date-container {
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+    color: white;
+    font-size: 16px;
+    background-color: var(--primary-color);
+}
+
+.save-button .ant-float-btn-body {
+    background-color: var(--primary-color) !important;
+}
+
+.content-container {
+    width: 100vw;
+    padding: 0px;
+    height: 100%;
+    display: block;
+}
+
+.attendance-table-container {
+    width: 100%;
+    padding-inline: 1rem;
+}

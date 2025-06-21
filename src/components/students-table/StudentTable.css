@@ -1,0 +1,76 @@
+table th {
+    background-color: #f0f6ff !important;
+    color: #4287f5 !important;
+}
+
+.ant-segmented-group {
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+
+button.ant-switch,
+button.ant-switch.ant-switch-checked {
+    background: unset;
+}
+
+button.ant-switch.ant-switch {
+    border: 1px solid red;
+}
+
+button.ant-switch.ant-switch-checked {
+    border: 1px solid green;
+}
+
+button.ant-switch .ant-switch-handle {
+    height: 15px;
+    width: 15px;
+    inset-inline-start: 4px;
+    inset-inline-end: 4px;
+}
+
+button.ant-switch .ant-switch-handle::before {
+    background-color: red;
+}
+
+button.ant-switch-checked .ant-switch-handle::before {
+    background-color: green;
+}
+
+button.ant-switch .ant-switch-inner-unchecked {
+    color: red !important;
+    font-size: 12px !important;
+}
+
+button.ant-switch .ant-switch-inner-checked {
+    color: green !important;
+    font-size: 12px !important;
+
+}
+
+button.ant-switch:hover {
+    background: none !important;
+}
+
+
+.students-table-row:has(.present),
+.students-table-row:has(.present) .ant-table-cell-row-hover {
+    background-color: rgb(205, 233, 205) !important;
+}
+
+.students-table-row:has(.absent),
+.students-table-row:has(.absent) .ant-table-cell-row-hover {
+    background-color: rgb(255, 158, 177) !important;
+}
+.students-table-row:has(.leave),
+.students-table-row:has(.leave) .ant-table-cell-row-hover {
+    background-color: rgb(244, 236, 221) !important;
+}
+.students-table-row:has(.late) {
+    border: 0.5px solid red;
+}
+
+.students-table-row:has(.late),
+.students-table-row:has(.late) .ant-table-cell-row-hover {
+    background-color: rgb(254, 255, 170) !important;
+}
