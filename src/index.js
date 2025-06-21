@@ -6,8 +6,10 @@ import { BrowserRouter } from "react-router";
 import reportWebVitals from './reportWebVitals';
 import axios from 'axios';
 
-axios.defaults.baseURL = 'http://localhost:8080';
+// axios.defaults.baseURL = 'http://localhost:8080';
 // axios.defaults.baseURL = 'http://192.168.100.6:8080';
+axios.defaults.baseURL = 'https://ami-attendance-api.onrender.com';
+
 axios.defaults.withCredentials = true;
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
