@@ -19,6 +19,7 @@ export const Login = () => {
       if (response?.status === 200) {
         localStorage.setItem('name',response?.data?.name);
         localStorage.setItem('id',response?.data?.userId);
+        document.cookie = `authToken=${response?.data?.token}; path=/; max-age=3600;`;
         navigate('/');
       } else {
         message.error('Login failed: ' + response);
